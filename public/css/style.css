@@ -1,0 +1,11 @@
+/* RESET PARAMETRE NAVIGATEUR */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* temporaire. Utilisé lorsqu'il n'y a pas beaucoup d'éléments sur le site */
+  min-height: 100vh;
+}
