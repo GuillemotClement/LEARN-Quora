@@ -1,3 +1,21 @@
+/* THEME */
+:root {
+  --primary: #12cbc4;
+  --primary-light: #e7f9f9;
+  --accent: #0652dd;
+  --warning: #ea2027;
+  --success: #009432;
+  --font-family: "Open Sans", sans-serif;
+  --box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%),
+    0 1px 3px 1px rgb(60 64 67 / 15%);
+  --border-raidus: 3px;
+  --border: 1px solid #ddd;
+  --color: #636466;
+  --color-dark: #444;
+  --gray: #636466;
+  --gray-dark: #444;
+}
+
 /* RESET PARAMETRE NAVIGATEUR */
 * {
   margin: 0;
@@ -8,4 +26,56 @@
 body {
   /* temporaire. Utilisé lorsqu'il n'y a pas beaucoup d'éléments sur le site */
   min-height: 100vh;
+  font-family: var(--font-family);
+}
+
+ul {
+  list-style: none;
+}
+
+/* FLEX */
+.d-flex {
+  display: flex;
+}
+.flex-row-nowrap {
+  flex-flow: row nowrap;
+}
+.flex-row-wrap {
+  flex-flow: row wrap;
+}
+.flex-column {
+  flex-direction: column;
+}
+.align-items-center {
+  align-items: center;
+}
+.align-items-end {
+  align-items: flex-end;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
+/* MARGIN */
+.m-5 {
+  margin: 5px;
+}
+.m-10 {
+  margin: 10px;
+}
+.m-20 {
+  margin: 20px;
+}
+
+/* PADDING */
+.p-5 {
+  padding: 5px;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-20 {
+  padding: 20px;
 }
