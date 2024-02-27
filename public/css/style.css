@@ -17,6 +17,7 @@
   --gray-dark: #444;
   --gray-light: #ddd;
   --max-width: 1200px;
+  --footer-background: #0a3d62;
 }
 
 /* RESET PARAMETRE NAVIGATEUR */
@@ -173,4 +174,10 @@ header {
   border: 0;
   outline: 0;
   background-color: var(--gray-light);
+}
+
+/* FOOTER */
+footer {
+  background-color: var(--footer-background);
+  color: var(--color-primary);
 }
