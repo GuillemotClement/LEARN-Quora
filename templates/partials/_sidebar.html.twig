@@ -4,17 +4,17 @@
       <span>Poser une question</span>
   </a>
   <ul class="sidebar-nav py-20">
-    <li class="active">
+    <a href="{{ path('app_home') }}" class="{{ app.request.pathinfo == path('app_home') ? 'active' : '' }}">
       <i class="fa-solid fa-house mr-5"></i>
       <span>Liste des questions</span>
-    </li>
-    <li>
-      <i class="fa-solid fa-question mr-5"></i>
+    </a>
+    <a>
+      <i href="#" class="fa-solid fa-question mr-5"></i>
       <span>Mes questions</span>
-    </li>
-    <li>
-      <i class="fa-solid fa-pen mr-5"></i>
+    </a>
+    <a>
+      <i href="#" class="fa-solid fa-pen mr-5"></i>
       <span>Mes réponses</span>
-    </li>
+    </a>
   </ul>
 </div>
